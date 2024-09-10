@@ -1,0 +1,42 @@
+body{
+    
+    text-align: center;
+}
+.divPrincipal{
+    width: 600px;
+    margin: auto;
+}
+.divImg{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+.divImg > img{
+    height: 200px;
+}
+a{
+    color: #eb7412;
+}
+p{
+    color: #a0a0a0;
+}
+footer{
+    text-align: left;
+}
+label{
+    color: #a0a0a0;
+    margin-left: 6px;
+}
+.divFooter{
+    display: flex;
+}
+.pFooter{
+    color: #eb7412;
+}
+.pDate{
+    font-size: 12px;
+}
+.pIn{
+    color: #505050;
+}

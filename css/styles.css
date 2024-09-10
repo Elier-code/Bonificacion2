@@ -1,7 +1,8 @@
 body{
-    
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .divPrincipal{
     width: 600px;
     margin: auto;
@@ -10,10 +11,10 @@ body{
     display: flex;
     gap: 10px;
     justify-content: space-around;
-    
+
 }
 .divImg > img{
-    height: 200px;
+    height: 160px;
 }
 a{
     color: #eb7412;
@@ -39,4 +40,43 @@ label{
 }
 .pIn{
     color: #505050;
+}
+textarea{
+    width: 100%;
+    border: none;
+    height: 150px;
+}
+.divComment{
+    border: 1px solid #c4c4c4;
+    width: 95%;
+    margin: auto;
+    padding: 5px;
+}
+.divButtonComment{
+    border-top: 1px solid #c4c4c4;
+    margin-left: -5px;
+    margin-right: -5px;
+    text-align: right;
+}
+.buttonComment{
+    color: #fff;
+    background-color: #505050;
+    height: 40px;
+    margin: 8px;
+}
+.divUltimo{
+    display: flex;
+}
+.divLeft , .divRight{
+    width: 50%;
+    text-align: left;
+    margin-top: 40px;
+}
+.divRight{
+    text-align: right;
+}
+#ultimo{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #a0a0a0;
 }

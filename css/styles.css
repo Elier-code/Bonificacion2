@@ -1,20 +1,31 @@
 body{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
 }
-
-.divPrincipal{
-    width: 600px;
+.contenFirst{
+    width: 90%;
+    display: block;
     margin: auto;
+
+}
+.divPrincipal{
+    width: 750px;
+    margin: auto;
+}
+.content{
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .divImg{
     display: flex;
     gap: 10px;
     justify-content: space-around;
-
+    width: 100%;
 }
 .divImg > img{
-    height: 160px;
+    width: 35%;
+    height: 50%;
 }
 a{
     color: #eb7412;
@@ -31,6 +42,11 @@ label{
 }
 .divFooter{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.articleFooter{
+    margin: 10px;
 }
 .pFooter{
     color: #eb7412;
@@ -48,7 +64,7 @@ textarea{
 }
 .divComment{
     border: 1px solid #c4c4c4;
-    width: 95%;
+    width: 78%;
     margin: auto;
     padding: 5px;
 }
@@ -66,14 +82,15 @@ textarea{
 }
 .divUltimo{
     display: flex;
+    width: 100%;
 }
 .divLeft , .divRight{
     width: 50%;
-    text-align: left;
+    text-align: center;
     margin-top: 40px;
 }
 .divRight{
-    text-align: right;
+    text-align: center;
 }
 #ultimo{
     color: #000;

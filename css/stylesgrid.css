@@ -1,0 +1,33 @@
+.gridContenedor{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+    padding: 15px;
+    height: 100%;
+    background-color: #052375;
+}
+.gridContenedor > div{
+    border: 1px solid ;
+    text-align: center;
+
+}
+.item1{
+    grid-row: 1 / 4;
+    background-color: #92ee55;
+}
+.item2{
+    grid-column: 2/ 4;
+    background-color: #92ee55;
+}
+.item6{
+    grid-row: 2 / span 2;
+    grid-column: 4 / 5;
+    background-color: #92ee55;
+}
+.divAmarillo{
+    background-color: #eeff03;
+}
+.divRojo{
+    background-color: #ec1f1f;
+}

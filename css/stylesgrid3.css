@@ -1,0 +1,67 @@
+body {
+    color: white;
+}
+
+#girdContenedorArea {
+    display: grid;
+    grid-template-areas: 'header header header'
+        'navGlobal navGlobal navGlobal'
+        'page page navLocal'
+        'content1 content1 navLocal'
+        'content2 content3 sidebar'
+        'footer footer footer';
+    grid-template-rows: 100px 100px 100px 200px 200px 100px;
+    gap: 5px;
+    background-color: black;
+    
+}
+
+#girdContenedorArea>div {
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.header {
+    grid-area: header;
+    background-color: #0066ff;
+}
+
+.navGlobal {
+    grid-area: navGlobal;
+    background-color: #0066ff;
+}
+
+.page {
+    grid-area: page;
+    background-color: #ff5c33;
+}
+
+.navLocal {
+    grid-area: navLocal;
+    background-color: #ffcc66;
+}
+
+.content1 {
+    grid-area: content1;
+    background-color: #ff9980;
+}
+
+.content2 {
+    grid-area: content2;
+    background-color: #ff9980;
+}
+
+.content3 {
+    grid-area: content3;
+    background-color: #ff9980;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #ffcc66;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: gray;
+}
